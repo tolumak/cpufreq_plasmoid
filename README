@@ -1,0 +1,57 @@
+
+***********************
+
+Cpufreq Plasmoid
+
+***********************
+
+Cpufreq Plasmoid is a Plasmoid intended to run with KDE SC 4.4.
+
+It prints the CPU governor in use and the current CPU(s) clock frequence.
+
+Author:
+------
+
+Michel Lafon-Puyo (michel.lafonpuyo <at> gmail.com)
+
+License:
+-------
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+COPYING contains a copy of the GNU General Public License. If not,
+see <http://www.gnu.org/licenses/>.
+
+
+Build:
+-----
+
+You need the the KDE SC4.4 libraries and CMake to build this plasmoid.
+
+# cmake .
+# make
+
+As root:
+
+# make install
+
+or as a sudoer:
+
+# sudo make install
+
+And finally,
+
+# kbuildsycoca4
+# kquitapp plasma-desktop (or kquitapp plasma-netbook)
+# plasma-desktop (or plasma-netbook)
+
+
+
